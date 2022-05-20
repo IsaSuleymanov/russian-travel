@@ -1,0 +1,6 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 48px;
+  justify-content: flex-end;
+}
