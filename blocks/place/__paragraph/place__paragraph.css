@@ -8,3 +8,25 @@
   line-height: calc(1 / 18 * 29);
   color: #fff;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph {
+    padding-left: 32px;
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    padding-left: 28px;
+    max-width: 352px;
+    font-size: 16px;
+    line-height: calc(1 / 16 * 26);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 16px 0;
+  }
+}
